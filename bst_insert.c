@@ -46,7 +46,7 @@ bst_t *bst_insert(bst_t **tree, int value)
 
 	return (NULL);
 }
-void print(bst_t *tree)
+void print_inorder(bst_t *tree)
 {
 	if (tree == NULL)
 		return;

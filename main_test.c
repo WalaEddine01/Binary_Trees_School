@@ -31,7 +31,7 @@ int main(void)
     printf("Inserted: %d\n", node->data);
     node = bst_insert(&root, 128);
     printf("Node should be nil -> %p\n", (void *)node);
-    binary_tree_print(root);
+    print(root);
     
     return (0);
 }
