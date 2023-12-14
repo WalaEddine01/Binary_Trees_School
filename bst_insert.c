@@ -50,7 +50,7 @@ void print_inorder(bst_t *tree)
 {
 	if (tree == NULL)
 		return;
-	print(tree->left);
+	print_inorder(tree->left);
 	printf("%d\n", tree->data);
-	print(tree->right);
+	print_inorder(tree->right);
 }

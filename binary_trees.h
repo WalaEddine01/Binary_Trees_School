@@ -25,6 +25,6 @@ typedef struct bst_t
 void binary_tree_print(const bst_t *);
 bst_t *binary_tree_node(bst_t *parent, int value);
 bst_t *bst_insert(bst_t **tree, int value);
-void print(bst_t *tree);
+void print_inorder(bst_t *tree);
 
 #endif /* _BINARY_TREES_H_ */
